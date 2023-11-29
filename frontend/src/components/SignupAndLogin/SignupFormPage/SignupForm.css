@@ -1,0 +1,124 @@
+.signupForm {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#191919, black);
+  font-family: 'CircularSpotifyBold', Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+.signupHeader {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 9vh;
+  z-index: 1000;
+  align-items: center;
+}
+
+.guestUserBtn {
+  color: #e7b8cf;
+  background: transparent;
+  border: none;
+  white-space: nowrap;
+  font-size: 1.5em;
+  font-family: 'CircularSpotifyBook', Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  margin-right: 1.5%;
+}
+
+.guestUserBtn:hover {
+  color: white;
+}
+
+.signupHeader .melodyLogoLink {
+  margin-left: .5vw;
+}
+
+.signupHeader .melodyLogoContainer {
+  margin-left: 1.5%;
+}
+
+/* container */
+
+.signupContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50vw;
+  color: white;
+  height: 77vh;
+}
+
+.signupContainer h1 {
+  font-size: 2.5rem;
+}
+
+.signupContainer hr {
+  width: 70%;
+  border: 1px solid #191919;
+}
+
+.loginLink {
+  color: #a7a7a7;
+  font-family: 'CircularSpotifyBook', Arial, Helvetica, sans-serif;
+  font-size: .8rem;
+}
+
+.loginLink a {
+  color: white;
+  margin-left: .5vh;
+}
+
+/* form */
+
+.signupContainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signupErrors {
+list-style: none;
+  color: red;
+  font-size: 0.75rem;
+  border-radius: 5px;
+  font-family: 'CircularSpotifyBook', Arial, Helvetica, sans-serif;
+}
+
+.signupContainer label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 0.75rem;
+}
+
+.signupContainer input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #4f4f4f;
+  background-color: #121212;
+  border-radius: 5px;
+  color: white;
+}
+
+.signUpBtn {
+  padding: 10px;
+  background-color: #1cd760;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.signUpBtn:hover {
+  transform: scale(1.05);
+}
